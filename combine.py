@@ -9,7 +9,7 @@ def custom_sort_key(item):
     if "/" in item:
         file = item.split("/")[-1]
     elif "\\" in item:
-        ile = item.split("\\")[-1]
+        file = item.split("\\")[-1]
 
     order_number = int(file.split(' ')[0])
 
